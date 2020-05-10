@@ -10,3 +10,8 @@ import './styles/header.scss';
 console.log(checkForName);
 
 alert('Webpack working');
+
+export {
+    checkForName,
+    handleSubmit
+}
